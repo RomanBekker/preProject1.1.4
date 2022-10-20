@@ -19,6 +19,7 @@ public class Main {
         userServiceImpl.saveUser("Александр", "Вертянкин", (byte) 26);
         System.out.println("User с именем – Александр добавлен в базу данных");
 
+
         //Получение всех User из базы и вывод в консоль
         System.out.println(userServiceImpl.getAllUsers());
 
